@@ -30,5 +30,5 @@
 		```
 		vue create -p github:vuedc/vue-cli-3-walkthrough my-project
 		```
-* [ ] Does `download-git-repo` support private BitBucket servers?
-	* I have not been able to get any of the remote preset functionality to work with our private BitBucket server, either with `vue create` or with `download-git-repo` so the problem may be with the latter.
+* [ ] Does the [download-git-repository](https://www.npmjs.com/package/download-git-repo) package support private BitBucket servers?
+	* I have not been able to get any of the remote preset functionality to work with our private BitBucket server, either with `vue create` or with `download-git-repository` so the problem may be with the latter.

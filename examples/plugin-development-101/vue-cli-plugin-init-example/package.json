@@ -1,6 +1,6 @@
 {
   "name": "@vuedc/vue-cli-plugin-init-example",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Sample Vue CLI 3 Plugin for a VueDC Presentation",
   "repository": {
     "type": "git",

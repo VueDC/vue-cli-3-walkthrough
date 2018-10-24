@@ -2,7 +2,7 @@
 
 ## Plugin Development 101
 ### Files:
-1. `project-example`: Simple project example with this tutorial's custom plugin.
+1. `project-example`: Simple project example with this presentation's custom plugin.
 1. `vue-cli-plugin-init-example`: A custom vue plugin that has already been published to npm as `@vuedc/vue-cli-plugin-init-example`.
 
 
@@ -28,14 +28,14 @@
 
 1. Continue local development
 * Modify files in the `vue-cli-plugin-init-example` folder
-* Run both the add and invoke commands from above
+* Run both the `add` and `invoke` commands from above
 
 
 ### Distribute and reuse the plugin remotely
 1. Create a new project using the preset remotely
-	> Functionality for this is based on the [download-git-repository](https://www.npmjs.com/package/download-git-repo) package
+	> Functionality for this is based on the [download-git-repository](https://www.npmjs.com/package/download-git-repo) package. The `preset.json` file must be in the root of your repository and can only contain a single preset.
 	```
-	vue create -p github:vuedc/vue-cli-3-walkthrough/examples/plugin-development-101/vue-cli-plugin-init-example my-project
+	vue create -p github:vuedc/vue-cli-3-walkthrough my-project
 	```
 
 1. Install and invoke the plugin from the npm registry to your project
