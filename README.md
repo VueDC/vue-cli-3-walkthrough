@@ -18,3 +18,17 @@
 * [ ] Show an example of webpack modification with the [Service Plugin](https://cli.vuejs.org/dev-guide/plugin-dev.html#service-plugin)
 * [ ] Show an example of [modifying built-in plugins via promts](https://cli.vuejs.org/dev-guide/plugin-dev.html#prompts)
 * [ ] Show more detail about each of the undocumented options and functions available in the [PluginAPI](https://github.com/vuejs/vue-cli/blob/dev/packages/%40vue/cli-service/lib/PluginAPI.js), the [GeneratorAPI](https://github.com/vuejs/vue-cli/blob/dev/packages/%40vue/cli/lib/GeneratorAPI.js), [PromptModuleAPI](https://github.com/vuejs/vue-cli/blob/dev/packages/%40vue/cli/lib/PromptModuleAPI.js) and [Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
+
+## Questions
+* [ ] Does `preset.json` need to be in the root of the git repository in order for it to work?
+	* In the case of this repo, the plugin's root folder and `preset.json` is located at `vue-cli-3-walkthrough/examples/plugin-development-101/vue-cli-plugin-init-example/`. When running `vue create` with this path, the return is `404`:
+		```
+		vue create -p github:vuedc/vue-cli-3-walkthrough/examples/plugin-development-101/vue-cli-plugin-init-example my-project
+		```
+	* When adding `--clone` to the above statement, the return is `Error: 'git clone' failed with status 128`
+	* If the `preset.json` is in the root of the repo, the following works as expected:
+		```
+		vue create -p github:vuedc/vue-cli-3-walkthrough my-project
+		```
+* [ ] Does `download-git-repo` support private BitBucket servers?
+	* I have not been able to get any of the remote preset functionality to work with our private BitBucket server, either with `vue create` or with `download-git-repo` so the problem may be with the latter.
