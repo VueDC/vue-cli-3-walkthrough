@@ -17,6 +17,7 @@
 * [ ] Show an example of updating (rather than replacing) [Generator templates](https://cli.vuejs.org/dev-guide/plugin-dev.html#generator-templating) with yaml
 * [ ] Show an example of webpack modification with the [Service Plugin](https://cli.vuejs.org/dev-guide/plugin-dev.html#service-plugin)
 * [ ] Show an example of [modifying built-in plugins via promts](https://cli.vuejs.org/dev-guide/plugin-dev.html#prompts)
+* [ ] Show an example of [registering commands for vue-cli-service](https://cli.vuejs.org/dev-guide/plugin-dev.html#service-plugin) and [checking for all available commands](https://cli.vuejs.org/guide/cli-service.html#vue-cli-service-inspect)
 * [ ] Show more detail about each of the undocumented options and functions available in the [PluginAPI](https://github.com/vuejs/vue-cli/blob/dev/packages/%40vue/cli-service/lib/PluginAPI.js), the [GeneratorAPI](https://github.com/vuejs/vue-cli/blob/dev/packages/%40vue/cli/lib/GeneratorAPI.js), [PromptModuleAPI](https://github.com/vuejs/vue-cli/blob/dev/packages/%40vue/cli/lib/PromptModuleAPI.js) and [Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
 
 ## Questions
