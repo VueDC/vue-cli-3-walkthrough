@@ -8,7 +8,7 @@
 
 ## Resources
 
-* Recording - 2018.10.17 - Coming Soon
+* [Recording - 2018.10.17](https://www.youtube.com/watch?v=V1XmpLeA9wI)
 * [Slides - 2018.10.17](https://github.com/VueDC/vue-cli-3-walkthrough/blob/master/slides/2018-10-17-vue-cli-3-walkthrough.pdf)
 * [Vue CLI 3 Plugin Development Guide](https://cli.vuejs.org/dev-guide/plugin-dev.html)
 
